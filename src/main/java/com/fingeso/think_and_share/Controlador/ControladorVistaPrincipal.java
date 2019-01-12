@@ -15,4 +15,8 @@ public class ControladorVistaPrincipal {
 
     public void verPerfil() {}
 
+    public void escribir(String s){
+        System.out.println(s);
+    }
+
 }

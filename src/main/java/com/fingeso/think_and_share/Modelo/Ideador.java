@@ -1,17 +1,12 @@
 package com.fingeso.think_and_share.Modelo;
 
+import org.springframework.data.mongodb.core.mapping.DBRef;
+
 import java.util.ArrayList;
 
-public class Ideador {
-    public String nombre;
-    public String run;
-    public int numeroCelular;
-    public int numeroTelefono;
-    public String facebook;
-    public String linkedln;
-    public String instagram;
-    public String correoAlaya;
-    public ArrayList<Idea> ideas;
+public class Ideador extends Usuario{
+    @DBRef
+    ArrayList<Idea> ideas;
 
     private boolean iniciarSesion(String run, String contrasena) {
         return true;
