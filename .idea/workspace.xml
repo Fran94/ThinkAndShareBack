@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d09a6a07-f868-4716-a213-ff203426af74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Modelo/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Controlador/ControladorVistaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Controlador/ControladorVistaPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Modelo/Administrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Modelo/Administrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Modelo/Evaluador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Modelo/Evaluador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Modelo/Ideador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Modelo/Ideador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/ThinkAndShareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/ThinkAndShareApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso/think_and_share/Controlador/ControladorVistaPrincipal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso/think_and_share/Modelo/Administrador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso/think_and_share/Modelo/Comentario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso/think_and_share/Modelo/Desafio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso/think_and_share/Modelo/Evaluador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso/think_and_share/Modelo/Idea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso/think_and_share/Modelo/Ideador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso/think_and_share/Modelo/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso/think_and_share/Repository/IdeaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso/think_and_share/Repository/IdeadorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso/think_and_share/ThinkAndShareApplication.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/ThinkAndShareApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,11 +48,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Controlador/ControladorVistaPrincipal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="255">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Modelo/Ideador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="153">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -149,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -160,8 +165,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,52 +189,22 @@
               <item name="think_and_share" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkAndShareBack" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="think_and_share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkAndShareBack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="think_and_share" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkAndShareBack" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="think_and_share" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="think_and_share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkAndShareBack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="think_and_share" type="462c0819:PsiDirectoryNode" />
-              <item name="Controlador" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="think_and_share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkAndShareBack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="think_and_share" type="462c0819:PsiDirectoryNode" />
-              <item name="Modelo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="think_and_share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkAndShareBack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="think_and_share" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="think_and_share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkAndShareBack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="think_and_share" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="think_and_share" type="b2602c69:ProjectViewProjectNode" />
@@ -288,17 +263,17 @@
       <updated>1547234753151</updated>
       <workItem from="1547234756181" duration="2477000" />
       <workItem from="1547240196875" duration="1083000" />
+      <workItem from="1547402211062" duration="87000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3560000" />
+    <option name="totallyTimeSpent" value="3647000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12260128" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25382933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -306,10 +281,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -321,6 +295,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3261105" />
+      <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -354,6 +329,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Service/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Controlador/ControladorVistaPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Modelo/Administrador.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -368,6 +361,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Modelo/Ideador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Modelo/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -375,23 +378,6 @@
           <folding>
             <element signature="e#408#409#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Modelo/Comentario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Modelo/Ideador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -410,28 +396,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Service/Service.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Modelo/Comentario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/Controlador/ControladorVistaPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso/think_and_share/ThinkAndShareApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
